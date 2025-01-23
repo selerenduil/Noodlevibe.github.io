@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    padding-top: 70px; /* Adjust for fixed navbar */
+}
+
+/* Header/Nav */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: #000000;
+    color: #e0e1dd;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #e0e1dd;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #787878;
+    border-radius: 5px;
+}
+
+.logo img {
+    max-height: 60px;
+    width: auto;
+    margin: 20px;
+}
+
+/* About Us Section */
+.about-section {
+    background-image: url(https://i.imgur.com/suZsFqB.jpeg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 70px; /* Leave space for the navbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e0e1dd;
+    text-align: left;
+}
+
+.about-content h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    margin: 50px;
+}
+
+.about-content p {
+    font-size: 20px;
+    width: 50%;
+    margin: 50px;
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 50px 20px;
+    background-image: url(https://i.imgur.com/TJaiTlg.png);
+    text-align: center;
+}
+
+.menu-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Menu Item */
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.96);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.menu-item .menu-item-text {
+    flex: 1;
+    text-align: left;
+}
+
+.menu-item .menu-item-img {
+    flex: 1;
+}
+
+.menu-item img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 2px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #000000;
+    color: #e0e1dd;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-height: 90px;
+    width: auto;
+    float: left;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.contact-section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 12px;
+}
+
